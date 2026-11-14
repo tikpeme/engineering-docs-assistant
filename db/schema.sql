@@ -13,6 +13,8 @@ CREATE EXTENSION IF NOT EXISTS vector;
 -- Neither role owns the tables, so RLS applies to both of them.
 CREATE ROLE app_reader LOGIN;
 CREATE ROLE app_ingest LOGIN;
+GRANT rds_iam TO app_reader;   -- these roles log in with IAM tokens, not passwords
+GRANT rds_iam TO app_ingest;
 
 -- ---------------------------------------------------------------------
 -- 2. documents: one row per unique document revision
