@@ -1,0 +1,62 @@
+[
+  {
+    "path": "Defense/ITAR/KPS-7700_RevB_Actuator_Bracket.pdf",
+    "groups": [
+      "ITAR-Authorized"
+    ]
+  },
+  {
+    "path": "Engineering/MaterialData/Material_Properties_Master.xlsx",
+    "groups": [
+      "ENG-Design",
+      "QA"
+    ]
+  },
+  {
+    "path": "Engineering/Projects/2014/Customer_X/KPS-1001_FINAL_v3_REALLY_FINAL.pdf",
+    "groups": [
+      "ENG-Design",
+      "QA"
+    ]
+  },
+  {
+    "path": "Engineering/Specs/KPS-1001_RevE_HeatTreat_17-4PH.pdf",
+    "groups": [
+      "ENG-Design",
+      "QA"
+    ]
+  },
+  {
+    "path": "Engineering/Specs/KPS-1001_RevF_HeatTreat_17-4PH.pdf",
+    "groups": [
+      "ENG-Design",
+      "QA"
+    ]
+  },
+  {
+    "path": "Procurement/Suppliers/SUP-0031_Apex_Bar_Stock_Datasheet.pdf",
+    "groups": [
+      "Procurement"
+    ]
+  },
+  {
+    "path": "Quality/Scans/QA-0099_RevA_Hardness_Inspection_1998_scan.pdf",
+    "groups": [
+      "QA",
+      "ENG-Design"
+    ]
+  },
+  {
+    "path": "Quality/WorkInstructions/WI-0420_RevC_Final_Inspection.docx",
+    "groups": [
+      "QA",
+      "ENG-Design"
+    ]
+  },
+  {
+    "path": "Shared/Misc/bracket_reference_copy.pdf",
+    "groups": [
+      "Everyone"
+    ]
+  }
+]

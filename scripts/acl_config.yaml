@@ -1,0 +1,12 @@
+# Simulated Windows folder permissions for the fake S: drive.
+# In production, these come from Get-Acl on the real file server.
+#
+# Rule: a file gets the groups of the LONGEST matching folder prefix.
+# A file that matches no folder gets NO groups (default deny).
+
+folders:
+  Engineering:   [ENG-Design, QA]
+  Quality:       [QA, ENG-Design]
+  Procurement:   [Procurement]
+  Defense/ITAR:  [ITAR-Authorized]
+  Shared:        [Everyone]        # the leaky "Everyone" folder Dana warned about
